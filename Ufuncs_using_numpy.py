@@ -1,0 +1,11 @@
+import numpy as np
+array1 = np.array([1, 2, 3, 4, 5])
+array2 = np.array([10, 20, 30, 40, 50])
+sum_result = np.add(array1, array2)
+product_result = np.multiply(array1, array2)
+square_root_result = np.sqrt(array1)
+print("Array 1:", array1)
+print("Array 2:", array2)
+print("Sum:", sum_result)
+print("Product:", product_result)
+print("Square Root of Array 1:", square_root_result)
